@@ -2,7 +2,8 @@ body {
     background-color: hsl(210, 46%, 95%);
     font-family: 'Manrope', sans-serif;
     font-size: 13px;
-    text-align: center;
+    text-align: left;
+    box-sizing: border-box;
 }
 .drawers-image{
     height: 260px; 
@@ -14,9 +15,6 @@ body {
 }
 #article {
     background-color: #ffffff;
-    width: 20rem;
-    margin: auto;
-    margin-top: 3rem;
 
 }
 .header {
@@ -25,14 +23,15 @@ body {
     background-color: #ffffff;
     
 }
+p {
+
+}
 #author {
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
 }
-#author h2, p {
-    text-align: left;
-}
+
 #author h2 {
     color:hsl(217, 19%, 35%);
     font-weight: 700;
@@ -71,12 +70,32 @@ body {
     #card {
         display: flex;
         flex-direction: column;
-
     }
-    
+    #article {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 20rem;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    h1 {
+        padding: 2rem;
+        font-size: 1rem;
+        margin: auto; 
+    }
+    p {
+        padding: 2rem; 
+        margin-top: -3rem; 
+        color:hsl(214, 17%, 51%);
+        font-weight: 500;
+    }
     #author {
         display: flex;
         flex-direction: row;
+        width: 20rem;
+        margin: auto; 
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
     .name {
         font-size: 13px;
@@ -85,6 +104,17 @@ body {
     .date {
         font-size: 13px; 
         text-align: left;
+    }
+    img {
+        margin-left: 2rem;
+    }
+    .article-info {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .name {
+        
     }
 
 }
