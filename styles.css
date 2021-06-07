@@ -4,9 +4,20 @@ body {
     font-size: 13px;
     text-align: center;
 }
+.drawers-image{
+    height: 260px; 
+    background-image: url(./images/drawers.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 #article {
     background-color: #ffffff;
     width: 20rem;
+    margin: auto;
+    margin-top: 3rem;
+
 }
 .header {
     margin-top: -3rem; 
@@ -18,6 +29,18 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #ffffff;
+}
+#author h2, p {
+    text-align: left;
+}
+#author h2 {
+    color:hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+#author p {
+    color:hsl(214, 17%, 51%); 
+    font-weight: 500;
+    margin-top: -0.75em;
 }
 .share {
     visibility: hidden;
@@ -50,10 +73,18 @@ body {
         flex-direction: column;
 
     }
-    .drawers {
-        height: 15rem;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+    
+    #author {
+        display: flex;
+        flex-direction: row;
+    }
+    .name {
+        font-size: 13px;
+        text-align: left;
+    }
+    .date {
+        font-size: 13px; 
+        text-align: left;
     }
 
 }
