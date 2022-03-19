@@ -13,7 +13,6 @@ body {
 .header {
     color: hsl(217, 19%, 35%);
     background-color: #ffffff;
-    
 }
 p {
 
@@ -58,12 +57,11 @@ p {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     #card {
         display: flex;
         flex-direction: column;
- 
-        margin-left: auto;
+        margin-left: 0 auto;
     }
     .drawers-image{
         height: 260px; 
@@ -119,4 +117,4 @@ p {
     }
 }
 
-    
+
